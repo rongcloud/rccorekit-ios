@@ -17,9 +17,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/rongcloud/rccorekit-ios.git', :tag => s.version.to_s }
   s.ios.deployment_target = '11.0'
   s.source_files = 'RCCoreKit/Classes/**/*'
-  s.resource_bundles = {
-     'RCCoreKit' => ['RCCoreKit/Assets/**']
-  }
   s.frameworks = 'UIKit'
   s.dependency 'YYModel'
   s.dependency 'SSZipArchive'
