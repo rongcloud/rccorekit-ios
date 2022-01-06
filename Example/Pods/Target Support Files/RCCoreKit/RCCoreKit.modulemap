@@ -1,0 +1,6 @@
+framework module RCCoreKit {
+  umbrella header "RCCoreKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
